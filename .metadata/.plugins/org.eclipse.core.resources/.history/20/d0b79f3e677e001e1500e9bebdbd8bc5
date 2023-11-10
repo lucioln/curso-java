@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class DesafioOperadores {
+	public static void main(String[] args) {
+		int expA = ((int) (Math.pow(6*(3+2), 2)) ) / (3*2);
+		System.out.println(expA);
+		int expB = ((1-5)*(2-7))/2;
+		int expC = Math.pow((int)Math.pow(expB, 2); 
+	}
+}

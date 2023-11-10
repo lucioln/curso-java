@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class DesafioOperadores {
+	public static void main(String[] args) {
+		int expA = (6 * (int) (Math.pow(3+2, 3)) ) / (3*2); 
+		
+		int expC = (1-5) * (int) Math.pow(2-7, 2)
+	}
+}

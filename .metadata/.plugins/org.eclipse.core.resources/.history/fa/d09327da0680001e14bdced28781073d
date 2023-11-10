@@ -1,0 +1,14 @@
+package classe;
+
+public class Jantar {
+	public static void main(String[] args) {
+		
+		Comida carne = new Comida("Bife", 0.250);
+		Comida arroz = new Comida("Arroz", 0.250);
+		Comida feijao = new Comida("Feijão", 0.250);
+		
+		Pessoa lucio = new Pessoa("Lúcio", 80.0);
+		
+		
+	}
+}

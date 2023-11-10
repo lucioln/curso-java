@@ -1,0 +1,20 @@
+package fundamentos;
+
+public class DesafioOperadoresLogicos {
+	public static void main(String[] args) {
+		int countTrabalhos = 0;
+		
+		//Trabalho na terça (v / f)
+		boolean trampouTerca = true; 
+		//Trabalho na quinta (v / f) 
+		boolean trampouQuinta = true;
+		// VV -> sorvete + tv de 50'
+		if(trampouTerca) {
+			countTrabalhos++;
+		}
+		
+		// VF || FV -> sorvete+ tv de 32'
+		
+		// FF -> ficar em casa mermo
+	}
+}

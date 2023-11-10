@@ -1,0 +1,15 @@
+package classe;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		Produto p1 = new Produto();
+		p1.nome = "EchoDot 3ºGer.";
+		p1.preco = 259.90;
+		p1.desconto = 0.20;
+		
+		System.out.println("Nome: " +p1.nome);
+		System.out.printf("Preço: R$ %.2f.\n", p1.preco);
+		System.out.printf("Desconto: $%.1f.\n", p1.desconto);
+		System.out.printf("Preço com Desconto: $%.2f.\n", p1.precoComDesconto());
+	}
+}

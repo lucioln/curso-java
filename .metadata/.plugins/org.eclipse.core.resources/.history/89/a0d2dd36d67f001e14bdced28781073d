@@ -1,0 +1,7 @@
+package classe;
+
+public class DataTeste {
+	public static void main(String[] args) {
+		Data dt = new Data(28,12,1998);
+	}
+}
