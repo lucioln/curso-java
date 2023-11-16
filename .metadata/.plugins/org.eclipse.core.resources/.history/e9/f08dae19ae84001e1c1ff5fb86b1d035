@@ -1,0 +1,5 @@
+package colecoes;
+
+public class ConjutoComportado {
+	Set lista = new HashSet();
+}

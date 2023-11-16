@@ -1,0 +1,10 @@
+package arrays;
+
+import javax.swing.JOptionPane;
+
+public class DesafioArray {
+	
+	public static void main(String[] args) {		
+		String qtdNotas = JOptionPane.showInputDialog("Quantas notas deseja cadastrar?");
+	}
+}
